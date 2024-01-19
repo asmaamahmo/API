@@ -4,7 +4,7 @@ let today = document.getElementById('today');
 //     getResponse(this.value);
 // });
 async function getResponse(query) {
-    let response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=1c95c92290c44d28ba243354241001&q=${query}&days=3&aqi=no&alerts=no`);
+    let response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=1c95c92290c44d28ba243354241001&q=${query}&days=3&aqi=no&alerts=no`);
     let result = await response.json();
     display(result);
     console.log(result);

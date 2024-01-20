@@ -115,6 +115,6 @@ form input[type="button"]{
 }
 .forecast-content .degree .num h1{
     font-size: 90px;
-    font-size: 6.4285714286rem;
+    font-size: 6rem;
     margin-right: 30px;
 }
